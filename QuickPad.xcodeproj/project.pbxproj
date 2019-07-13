@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F21763E22DA512E00736EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21763D22DA512E00736EBC /* AppDelegate.swift */; };
+		1F21764022DA512E00736EBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21763F22DA512E00736EBC /* SceneDelegate.swift */; };
+		1F21764322DA512E00736EBC /* QuickPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F21764122DA512E00736EBC /* QuickPad.xcdatamodeld */; };
+		1F21764522DA512E00736EBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21764422DA512E00736EBC /* ContentView.swift */; };
+		1F21764722DA512F00736EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F21764622DA512F00736EBC /* Assets.xcassets */; };
+		1F21764A22DA512F00736EBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F21764922DA512F00736EBC /* Preview Assets.xcassets */; };
+		1F21764D22DA512F00736EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F21764B22DA512F00736EBC /* LaunchScreen.storyboard */; };
+		1F21765822DA512F00736EBC /* QuickPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21765722DA512F00736EBC /* QuickPadTests.swift */; };
+		1F21766322DA512F00736EBC /* QuickPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21766222DA512F00736EBC /* QuickPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F21765422DA512F00736EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F21763222DA512E00736EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F21763922DA512E00736EBC;
+			remoteInfo = QuickPad;
+		};
+		1F21765F22DA512F00736EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F21763222DA512E00736EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F21763922DA512E00736EBC;
+			remoteInfo = QuickPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F21763A22DA512E00736EBC /* QuickPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F21763D22DA512E00736EBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F21763F22DA512E00736EBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F21764222DA512E00736EBC /* QuickPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuickPad.xcdatamodel; sourceTree = "<group>"; };
+		1F21764422DA512E00736EBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F21764622DA512F00736EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F21764922DA512F00736EBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F21764C22DA512F00736EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F21764E22DA512F00736EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F21765322DA512F00736EBC /* QuickPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F21765722DA512F00736EBC /* QuickPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPadTests.swift; sourceTree = "<group>"; };
+		1F21765922DA512F00736EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F21765E22DA512F00736EBC /* QuickPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F21766222DA512F00736EBC /* QuickPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPadUITests.swift; sourceTree = "<group>"; };
+		1F21766422DA512F00736EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F21763722DA512E00736EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F21765022DA512F00736EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F21765B22DA512F00736EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F21763122DA512E00736EBC = {
+			isa = PBXGroup;
+			children = (
+				1F21763C22DA512E00736EBC /* QuickPad */,
+				1F21765622DA512F00736EBC /* QuickPadTests */,
+				1F21766122DA512F00736EBC /* QuickPadUITests */,
+				1F21763B22DA512E00736EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F21763B22DA512E00736EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F21763A22DA512E00736EBC /* QuickPad.app */,
+				1F21765322DA512F00736EBC /* QuickPadTests.xctest */,
+				1F21765E22DA512F00736EBC /* QuickPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F21763C22DA512E00736EBC /* QuickPad */ = {
+			isa = PBXGroup;
+			children = (
+				1F21763D22DA512E00736EBC /* AppDelegate.swift */,
+				1F21763F22DA512E00736EBC /* SceneDelegate.swift */,
+				1F21764422DA512E00736EBC /* ContentView.swift */,
+				1F21764622DA512F00736EBC /* Assets.xcassets */,
+				1F21764B22DA512F00736EBC /* LaunchScreen.storyboard */,
+				1F21764E22DA512F00736EBC /* Info.plist */,
+				1F21764122DA512E00736EBC /* QuickPad.xcdatamodeld */,
+				1F21764822DA512F00736EBC /* Preview Content */,
+			);
+			path = QuickPad;
+			sourceTree = "<group>";
+		};
+		1F21764822DA512F00736EBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F21764922DA512F00736EBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F21765622DA512F00736EBC /* QuickPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F21765722DA512F00736EBC /* QuickPadTests.swift */,
+				1F21765922DA512F00736EBC /* Info.plist */,
+			);
+			path = QuickPadTests;
+			sourceTree = "<group>";
+		};
+		1F21766122DA512F00736EBC /* QuickPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F21766222DA512F00736EBC /* QuickPadUITests.swift */,
+				1F21766422DA512F00736EBC /* Info.plist */,
+			);
+			path = QuickPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F21763922DA512E00736EBC /* QuickPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F21766722DA512F00736EBC /* Build configuration list for PBXNativeTarget "QuickPad" */;
+			buildPhases = (
+				1F21763622DA512E00736EBC /* Sources */,
+				1F21763722DA512E00736EBC /* Frameworks */,
+				1F21763822DA512E00736EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickPad;
+			productName = QuickPad;
+			productReference = 1F21763A22DA512E00736EBC /* QuickPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F21765222DA512F00736EBC /* QuickPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F21766A22DA512F00736EBC /* Build configuration list for PBXNativeTarget "QuickPadTests" */;
+			buildPhases = (
+				1F21764F22DA512F00736EBC /* Sources */,
+				1F21765022DA512F00736EBC /* Frameworks */,
+				1F21765122DA512F00736EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F21765522DA512F00736EBC /* PBXTargetDependency */,
+			);
+			name = QuickPadTests;
+			productName = QuickPadTests;
+			productReference = 1F21765322DA512F00736EBC /* QuickPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F21765D22DA512F00736EBC /* QuickPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F21766D22DA512F00736EBC /* Build configuration list for PBXNativeTarget "QuickPadUITests" */;
+			buildPhases = (
+				1F21765A22DA512F00736EBC /* Sources */,
+				1F21765B22DA512F00736EBC /* Frameworks */,
+				1F21765C22DA512F00736EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F21766022DA512F00736EBC /* PBXTargetDependency */,
+			);
+			name = QuickPadUITests;
+			productName = QuickPadUITests;
+			productReference = 1F21765E22DA512F00736EBC /* QuickPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F21763222DA512E00736EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = SmallBytes;
+				TargetAttributes = {
+					1F21763922DA512E00736EBC = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					1F21765222DA512F00736EBC = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 1F21763922DA512E00736EBC;
+					};
+					1F21765D22DA512F00736EBC = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 1F21763922DA512E00736EBC;
+					};
+				};
+			};
+			buildConfigurationList = 1F21763522DA512E00736EBC /* Build configuration list for PBXProject "QuickPad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F21763122DA512E00736EBC;
+			productRefGroup = 1F21763B22DA512E00736EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F21763922DA512E00736EBC /* QuickPad */,
+				1F21765222DA512F00736EBC /* QuickPadTests */,
+				1F21765D22DA512F00736EBC /* QuickPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F21763822DA512E00736EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F21764D22DA512F00736EBC /* LaunchScreen.storyboard in Resources */,
+				1F21764A22DA512F00736EBC /* Preview Assets.xcassets in Resources */,
+				1F21764722DA512F00736EBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F21765122DA512F00736EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F21765C22DA512F00736EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F21763622DA512E00736EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F21764322DA512E00736EBC /* QuickPad.xcdatamodeld in Sources */,
+				1F21763E22DA512E00736EBC /* AppDelegate.swift in Sources */,
+				1F21764522DA512E00736EBC /* ContentView.swift in Sources */,
+				1F21764022DA512E00736EBC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F21764F22DA512F00736EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F21765822DA512F00736EBC /* QuickPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F21765A22DA512F00736EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F21766322DA512F00736EBC /* QuickPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F21765522DA512F00736EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F21763922DA512E00736EBC /* QuickPad */;
+			targetProxy = 1F21765422DA512F00736EBC /* PBXContainerItemProxy */;
+		};
+		1F21766022DA512F00736EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F21763922DA512E00736EBC /* QuickPad */;
+			targetProxy = 1F21765F22DA512F00736EBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F21764B22DA512F00736EBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F21764C22DA512F00736EBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F21766522DA512F00736EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F21766622DA512F00736EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F21766822DA512F00736EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "QuickPad/Preview\\ Content";
+				DEVELOPMENT_TEAM = GDP24D6J8J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuickPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallbytes..QuickPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F21766922DA512F00736EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "QuickPad/Preview\\ Content";
+				DEVELOPMENT_TEAM = GDP24D6J8J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuickPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallbytes..QuickPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F21766B22DA512F00736EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDP24D6J8J;
+				INFOPLIST_FILE = QuickPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallbytes..QuickPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickPad.app/QuickPad";
+			};
+			name = Debug;
+		};
+		1F21766C22DA512F00736EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDP24D6J8J;
+				INFOPLIST_FILE = QuickPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallbytes..QuickPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickPad.app/QuickPad";
+			};
+			name = Release;
+		};
+		1F21766E22DA512F00736EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDP24D6J8J;
+				INFOPLIST_FILE = QuickPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallbytes..QuickPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickPad;
+			};
+			name = Debug;
+		};
+		1F21766F22DA512F00736EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDP24D6J8J;
+				INFOPLIST_FILE = QuickPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallbytes..QuickPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F21763522DA512E00736EBC /* Build configuration list for PBXProject "QuickPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F21766522DA512F00736EBC /* Debug */,
+				1F21766622DA512F00736EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F21766722DA512F00736EBC /* Build configuration list for PBXNativeTarget "QuickPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F21766822DA512F00736EBC /* Debug */,
+				1F21766922DA512F00736EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F21766A22DA512F00736EBC /* Build configuration list for PBXNativeTarget "QuickPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F21766B22DA512F00736EBC /* Debug */,
+				1F21766C22DA512F00736EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F21766D22DA512F00736EBC /* Build configuration list for PBXNativeTarget "QuickPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F21766E22DA512F00736EBC /* Debug */,
+				1F21766F22DA512F00736EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F21764122DA512E00736EBC /* QuickPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F21764222DA512E00736EBC /* QuickPad.xcdatamodel */,
+			);
+			currentVersion = 1F21764222DA512E00736EBC /* QuickPad.xcdatamodel */;
+			path = QuickPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F21763222DA512E00736EBC /* Project object */;
+}
